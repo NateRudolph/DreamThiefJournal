@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'search', 'requirejs' ]
+2 info using npm@2.1.12
+3 info using node@v0.10.33
+4 silly mapToRegistry name -/all
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/-/all
+8 info updateIndex /Users/naterudolph/.npm/registry.npmjs.org/-/all/.cache.json
+9 warn Building the local index for the first time, please be patient
+10 verbose request uri https://registry.npmjs.org/-/all
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 17:59:30
+13 verbose request id f537c9493970e2bb
+14 http request GET https://registry.npmjs.org/-/all
+15 http 200 https://registry.npmjs.org/-/all
+16 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+16 verbose headers   'content-type': 'text/plain',
+16 verbose headers   'last-modified': 'Fri, 22 May 2015 21:02:57 GMT',
+16 verbose headers   etag: '"555f9981-543eede"',
+16 verbose headers   expires: 'Fri, 22 May 2015 22:15:33 GMT',
+16 verbose headers   'access-control-allow-origin': '*',
+16 verbose headers   'access-control-allow-methods': 'GET',
+16 verbose headers   'cache-control': 'max-age=3600',
+16 verbose headers   'content-length': '88338142',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   date: 'Fri, 22 May 2015 21:59:30 GMT',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   age: '2637',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'x-served-by': 'cache-iad2128-IAD',
+16 verbose headers   'x-cache': 'HIT',
+16 verbose headers   'x-cache-hits': '1',
+16 verbose headers   'x-timer': 'S1432331970.243741,VS0,VE466' }
+17 verbose stack Error: [object Object] [object Object]: -/all
+17 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+17 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+17 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:373:22)
+17 verbose stack     at Request.emit (events.js:98:17)
+17 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+17 verbose stack     at Request.emit (events.js:117:20)
+17 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+17 verbose stack     at IncomingMessage.emit (events.js:117:20)
+17 verbose stack     at _stream_readable.js:943:16
+17 verbose stack     at process._tickCallback (node.js:419:13)
+18 verbose statusCode 200
+19 verbose cwd /Users/naterudolph/Documents/Projects/DreamThief
+20 error Darwin 14.1.0
+21 error argv "node" "/usr/local/bin/npm" "search" "requirejs"
+22 error node v0.10.33
+23 error npm  v2.1.12
+24 error code E200
+25 error [object Object] [object Object]: -/all
+26 error If you need help, you may report this error at:
+26 error     <http://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]

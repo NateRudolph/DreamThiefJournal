@@ -1,0 +1,13 @@
+# Dream Thief - _Prototype Level_
+
+Scene opens in a bland interregation style room.
+	
+	Props:
+	Table
+	Papers on table
+	Two Chairs
+	Florescent light
+	Door
+	Creepy Dude
+
+""
